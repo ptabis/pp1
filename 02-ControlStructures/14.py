@@ -1,4 +1,4 @@
-age = 15
+age = int(input("Podaj wiek psa w ludzkich latach: "))
 if age < 2:
     print("Wiek psa wynosi: {} lata".format(age*10.5))
 else:
