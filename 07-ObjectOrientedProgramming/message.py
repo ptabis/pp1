@@ -2,4 +2,8 @@ class Message():
     def __init__(self):
         self.message = ''
     def set_message(self,message):
-        self.message = message
+        self.message = message[0].upper()+message[1:].lower()+" BYE"
+    
+msg = Message()
+msg.set_message('elO')
+print(msg.message)
