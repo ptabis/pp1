@@ -25,3 +25,9 @@ GBP = {
         }
     ]
 }
+
+print("Data\t\tKurs")
+print("=======================")
+for i in GBP['rates']:
+    print(f"{i['effectiveDate']}\t\t{i['mid']}")
+        
